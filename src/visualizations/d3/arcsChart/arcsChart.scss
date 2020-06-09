@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto|Open+Sans:400italic,700italic,400,700);
+
+$roboto: 'Roboto', serif;   
+
+.arc-origin {
+    &--circle {
+        fill: #1B2A37;
+        fill-opacity: 0.6;
+    }
+    &--rect {
+        fill: #ffffff;
+        transform: rotate(45deg);
+    }
+}
+
+.anchor-circle {
+    fill: #223646;
+    stroke: #263A50;
+    stroke-width: 1px;
+}
+
+.anchor-box {
+    rect, text {
+        fill: #ffffff;
+        font-size: 10px;
+    }
+}
+
+.frame {
+  fill: none;
+  stroke: #000;
+}
+
+.area-text {
+  font: 8px sans-serif;
+  fill: #929CA4;
+}
+
+.axis line,
+.axis circle {
+  fill: none;
+  stroke: #283D50;
+  stroke-width: 1.5px;
+}
+
+.axis :nth-of-type(2) circle {
+  stroke: none;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 16px;
+  background: rgba(39, 39, 39, 0.9);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
